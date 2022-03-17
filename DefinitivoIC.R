@@ -17,8 +17,8 @@ library(textstem)
 library(syuzhet)
 library(tuber)#Realiza a conexão com a API do youtube
 setwd("C:/Users/user/Desktop/DocIC")  
-app_id="52070049652-da53gt02t50qm0gl3d1313ih8g6gm9kg.apps.googleusercontent.com" 
-secret_id="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"
+app_id="@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" #Secreto, cada API tem suas chaves
+secret_id="@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@" #Secreto, cada API tem suas chaves
 yt_oauth(app_id,secret_id,token = '') 
 comment=get_all_comments(video_id = "E98hC9e__Xs")
 detalhes=get_video_details(video_id = "Ks7mmrer37g",part = "snippet") 
